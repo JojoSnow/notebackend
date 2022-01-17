@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const cors = requite('cors')
+const cors = require('cors')
 
 app.use(express.json())
 app.use(cors())
